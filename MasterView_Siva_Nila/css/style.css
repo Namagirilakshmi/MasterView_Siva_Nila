@@ -1,0 +1,86 @@
+/*css styles starts*/
+#wrapper{
+	width:100%;
+	margin: 0 auto;
+	text-align: center;
+	border:5px solid brown;
+	box-sizing: border-box;
+	padding: 20px 0;
+}
+h1 {
+    color: #0a8c0a;
+    font-weight: bold;
+    font-size: 60px;
+}
+#items{
+	float: left;
+	padding: 25px 0px;
+	display: block;
+}
+.dinoName {
+    border: 2px solid green;
+    padding: 20px 0;
+    border-radius: 10px;
+    font-size: 30px;
+}
+li:hover {
+	background-color: brown;
+	color: white; 
+	cursor: pointer;
+}
+#contents{
+	border:2px solid darkgreen;
+	min-height: 570px;
+	float: left;
+	background: url(../images/dino1.jpg)no-repeat;
+    background-size: 28% 60%;
+    background-position: 31px 127px;
+	border-radius: 40px;
+	display: none;
+}
+.contentHead {
+    font-size: 50px;
+    background-color: green;
+    color: white;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 20px;
+}
+#descCont {
+    font-size: 30px;
+    margin: 0 auto;
+}
+.descName {
+    font-size: 30px;
+    margin: 10px;
+   
+}
+.descVal {
+    font-size: 20px;
+    color: brown;
+    text-align: left;
+}
+/*css styles ends*/
+/*media query for changing font size*/
+@media screen and (max-width: 480px)
+{
+	.contentHead{	
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.dinoName{
+		font-size: 20px;
+	}
+	.descName{
+		font-size: 15px;
+	}
+	.descVal {
+		font-size: 15px;
+	}
+	#descCont {
+		margin-top: 20px;
+	}
+}
+.clear{
+	clear: both;
+}
